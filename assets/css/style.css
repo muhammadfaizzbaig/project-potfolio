@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Hero Section start */
+.hero {
+    height: 100vh;
+    background-image: url("/assets/image/hero-section-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-container {
+    color: #fff;
+}
+.text-container p {
+    color: #fff;
+}
+/* Hero Section end */
+
+/* About Section */
+.about-heading {
+    font-size: 6rem;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.about-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    transform: translateY(90px);
+    height: 15px;
+    width: 100%;
+    background-color: #f5ba4a;
+    z-index: -1;
+}
+
+.pra-yellow {
+    color: #f5ba4a;
+}
+.about-us {
+    height: auto;
+    padding: 8rem 0;
+}
+.about-us p {
+    font-size: 1.25rem;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+/* The Dental Suite */
+.the-dental-suite {
+    background-color: #f5ba4a;
+    padding: 4rem 0;
+}
+.the-dental-suite img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    
+    .about-us p {
+        font-size: 1.1rem;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        background-position: top;
+        height: 80vh;
+    }
+
+    .about-us p {
+        font-size: 1rem;
+        padding: 0 10px; /* Added padding to keep the text inside on mobile */
+    }
+}
+/* The Dental Suite */
+.the-dental-suite {
+    background-color: #f5ba4a; /* Yellow background to match your previous section */
+    padding: 60px 0;
+     /* Set the parent container to relative */
+     /* Set a minimum height to ensure it contains both images */
+}
+.Project-heading {
+    font-size: 6rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 1rem; /* Adjust this value to increase/decrease gap */
+}
+
+.flow-heading {
+    font-size: 6rem;
+    font-weight: 500;
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem; /* You can adjust this value as needed */
+}
+
+.flow-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    transform: translateY(90px);
+    height: 15px;
+    width: 100%;
+    background-color: #f5ba4a;
+    z-index: -1;
+}
+
+.front-end img {
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 15px;
+}
+
+.front-end .row {
+    margin: 0; /* Removes extra margin from the row */
+}
+
+.front-end h2 {
+    /* text-align: center; */
+     /* Centers the headings */
+}
+.back-end h3 {
+    color: #f5ba4a;
+    font-weight:bold ;
+}
+.task-number {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f0b64b;
+}
+
+.task-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #f0b64b;
+    margin-left: 10px;
+}
+
+.days-box {
+    background-color: #f0b64b;
+    border-radius: 20px;
+    padding: 25px 15px;
+}
+
+.days-text {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.task-number {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #f0b64b;
+}
+
+.task-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #f0b64b;
+    margin-left: 10px;
+}
+
+.days-box {
+    background-color: #f0b64b;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.days-text {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
